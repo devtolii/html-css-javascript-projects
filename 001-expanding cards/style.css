@@ -6,7 +6,7 @@
 
 body {
   font-family: "Muli", sans-serif;
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
   height: 100vh;
@@ -15,8 +15,9 @@ body {
 }
 
 .container {
-  display: flex;
-  width: 90vw;
+  display: block;
+  width: 90vh;
+
 }
 
 .panel {
@@ -27,6 +28,7 @@ body {
   border-radius: 50px;
   color: #fff;
   cursor: pointer;
+  display: block;
   flex: 0.5;
   margin: 10px;
   position: relative;
@@ -45,6 +47,7 @@ body {
 
 .panel.active {
   flex: 5;
+
 }
 
 .panel.active h3 {
